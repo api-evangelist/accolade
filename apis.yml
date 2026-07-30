@@ -1,7 +1,28 @@
 aid: accolade
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accolade.png
 name: Accolade
-description: Accolade is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Accolade is a personalized healthcare and benefits navigation platform for
+  employers and health plans. It pairs members with a care team of advocates,
+  registered nurses, physicians, and mental-health specialists to help them
+  understand their benefits, find in-network care, book appointments, and manage
+  chronic and complex conditions. Accolade combines this human advocacy with
+  virtual primary care, expert medical opinion, and mental-health services
+  delivered through its member web and mobile apps. The company was surfaced as
+  a portfolio company of a16z and added to the API Evangelist network. Accolade
+  is a member-facing benefits platform and does not publish a public API,
+  developer portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/accolade/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
@@ -12,9 +33,37 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Health Benefits
+- Care Navigation
+- Virtual Care
+- Employee Benefits
+- Telehealth
+- Digital Health
+- Mental Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/accolade-domain-security.yml
+- type: Website
+  url: https://www.accolade.com
+- type: Login
+  url: https://member.accolade.com/
+- type: SignUp
+  url: https://accounts.accolade.com/?platform=web#/
+- type: Support
+  url: https://www.accolade.com/contact
+- type: TermsOfService
+  url: https://www.accolade.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.accolade.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
