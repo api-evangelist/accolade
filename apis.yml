@@ -35,6 +35,9 @@ description: >-
   is a member-facing benefits platform and does not publish a public API,
   developer portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/accolade/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Accolade is a member-facing benefits platform and does not publish a public API, developer portal, or developer documentation."
 x-type: company
 x-source: a16z-portfolio
 x-tier: stub
